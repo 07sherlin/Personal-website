@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherlin Sawaki - HR Professional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .contact-links {
+            margin-top: 20px;
+        }
+        
+        .contact-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        
+        nav {
+            background: #333;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+        }
+        
+        nav a:hover {
+            color: #667eea;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        section {
+            margin-bottom: 50px;
+        }
+        
+        h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .about-content {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        
+        .education-item, .experience-item {
+            margin-bottom: 30px;
+        }
+        
+        .education-item h3, .experience-item h3 {
+            color: #333;
+            font-size: 1.4em;
+            margin-bottom: 5px;
+        }
+        
+        .education-item .subtitle, .experience-item .subtitle {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        .education-item ul, .experience-item ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        .education-item li, .experience-item li {
+            margin-bottom: 8px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .skill-category h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .skill-category ul {
+            list-style: none;
+        }
+        
+        .skill-category li {
+            padding: 5px 0;
+        }
+        
+        .skill-category li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sherlin Febryana Yael Sawaki</h1>
+        <p>Human Resource Management Student | Cleveland, OH</p>
+        <div class="contact-links">
+            <a href="mailto:sherlinsawaki@gmail.com">Email</a>
+            <a href="tel:216-415-4508">216-415-4508</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#volunteer">Volunteer</a>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Hello! I'm Sherlin, a motivated Business Administration student specializing in Human Resource Management at Cleveland State University. I'm passionate about helping people succeed in their careers and creating positive workplace environments.</p>
+                <br>
+                <p>As a full scholarship recipient from the Central Papuan Government of Indonesia, I maintain a 3.69 GPA while actively developing my skills in HR, business analytics, and organizational management. I'm fluent in both English and Indonesian, bringing a global perspective to my work.</p>
+                <br>
+                <p>I'm currently seeking opportunities to apply my knowledge in Administrative Assistant, HR, or Business Analyst roles where I can contribute to organizational success and continue growing professionally.</p>
+            </div>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Cleveland State University</h3>
+                <div class="subtitle">Bachelor of Business Administration in Human Resource Management | Expected December 2027</div>
+                <p><strong>GPA: 3.69</strong></p>
+                <p><strong>Honors & Awards:</strong></p>
+                <ul>
+                    <li>Full Scholarship Recipient - Central Papuan Government of Indonesia</li>
+                    <li>Ahuja Endow Scholarship (Spring & Fall 2025)</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Relevant Coursework:</strong></p>
+                <ul>
+                    <li>Business Analytics</li>
+                    <li>Operation Management</li>
+                    <li>Human Resource Management</li>
+                    <li>Business Communication</li>
+                    <li>Information Systems</li>
+                    <li>Finance, Macroeconomics, Microeconomics</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <h3>Student Services Worker</h3>
+                <div class="subtitle">AI Store, Cleveland State University | September 2025 - December 2025</div>
+                <ul>
+                    <li>Maintained store operations by restocking merchandise, organizing inventory, and ensuring product displays were presentable and fully stocked</li>
+                    <li>Performed daily cleaning duties and maintained equipment to ensure a welcoming environment for students and staff</li>
+                    <li>Demonstrated reliability and time management by consistently meeting shift responsibilities while balancing full-time coursework</li>
+                    <li>Provided friendly customer service and assisted students with inquiries about store products and campus resources</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills & Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Microsoft Office Suite</li>
+                        <li>Data Analysis</li>
+                        <li>Business Analytics Tools</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Administrative</h3>
+                    <ul>
+                        <li>Scheduling</li>
+                        <li>Document Management</li>
+                        <li>Inventory Control</li>
+                        <li>Record Keeping</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Interpersonal</h3>
+                    <ul>
+                        <li>Customer Service</li>
+                        <li>Professional Communication</li>
+                        <li>Team Collaboration</li>
+                        <li>Cross-Cultural Communication</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Core Competencies</h3>
+                    <ul>
+                        <li>Problem-Solving</li>
+                        <li>Critical Thinking</li>
+                        <li>Time Management</li>
+                        <li>Attention to Detail</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="margin-top: 30px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
+                <h3 style="color: #667eea; margin-bottom: 10px;">Languages</h3>
+                <p><strong>English:</strong> Fluent | <strong>Indonesian:</strong> Native</p>
+            </div>
+        </section>
+        
+        <section id="volunteer">
+            <h2>Volunteer Experience</h2>
+            <div class="experience-item">
+                <h3>Event Volunteer - Night to Shine</h3>
+                <div class="subtitle">Special Needs Event</div>
+                <ul>
+                    <li>Provided food service at an event for individuals with special needs, demonstrating compassion and teamwork</li>
+                    <li>Assisted with event logistics and participant support to ensure a positive experience for all attendees</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Cleveland State University International Office</h3>
+                <div class="subtitle">Spring 2025 & Fall 2025</div>
+                <ul>
+                    <li>Volunteered at campus events including Chinese New Year and Cultural Day</li>
+                    <li>Represented Indonesia and interacted with attendees to share cultural traditions</li>
+                    <li>Helped with event setup and support during activities</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 Sherlin Febryana Yael Sawaki. All rights reserved.</p>
+        <p style="margin-top: 10px;">Cleveland, OH | <a href="mailto:sherlinsawaki@gmail.com" style="color: #667eea;">sherlinsawaki@gmail.com</a></p>
+    </footer>
+</body>
+</html>
